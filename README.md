@@ -1,29 +1,36 @@
 # Mongdb Begin
 
-`mongdb-begin` contains project files that now have a documented setup, structure, and maintenance workflow.
+## Project Tags
+
+- `Full Stack`
+
+## Overview
+
+Mongdb Begin is a full-stack application with separate frontend and backend pieces.
 
 ## Features
 
-- JavaScript/TypeScript project structure with package scripts
-- Backend entry point for API or server-side workflows
+- User-facing frontend or app interface
+- Backend service, API, websocket, bot, or server workflow
 
 ## Tech Stack
 
+- Express
 - Node.js
-- Express/Node backend
+- JavaScript
 
 ## Project Structure
 
-- `README.md` - project documentation
-- `memestaan` - project directory
+- `memestaan` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/mongdb-begin.git
@@ -40,32 +47,31 @@ cd memestaan
 npm install
 ```
 
-## Available Commands
+## Commands
 
-- `memestaan/frontend/package.json` - no npm scripts are currently defined.
-- `memestaan/package.json` - scripts: `test`
+- `memestaan/frontend/package.json`: package metadata is present; no scripts are defined yet.
+- `memestaan/package.json`: `test`
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Document required service ports, database URLs, and API credentials before deployment.
 
 ## Testing and Quality
 
 - From `memestaan`, run `npm test`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
