@@ -1,10 +1,22 @@
 # Mongdb Begin
 
-> Mongdb Begin is a full-stack project with a visible product surface and supporting service layer.
+> Mongdb Begin is a MongoDB practice project for learning database-backed application basics.
 
 ## The Story
 
 Mongdb Begin starts with a simple goal: keep the product experience and the service layer visible in one place. Its shape tells the same story: the product interface and the service layer live close enough together that a maintainer can see the project as a whole before diving into individual folders.
+
+## Detailed Description
+
+Mongdb Begin is a MongoDB practice project for learning database-backed application basics. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The project has both a product surface and a service surface. Good documentation should show how the UI, API, data flow, and local scripts work together so someone can run the whole experience end to end.
+
+At the top level, the most important entry points are `memestaan`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The declared Node surfaces include `memestaan/frontend` (no scripts declared) and `memestaan` (scripts: `test`). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
+
+The visible stack currently points to `Express`, `Node.js`, and `JavaScript`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
